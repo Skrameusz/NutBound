@@ -1,0 +1,65 @@
+local config = {
+    VIRTUAL_WIDTH = 1280,
+    VIRTUAL_HEIGHT = 720,
+    TILE_SIZE = 48,
+
+    GRAVITY = 1500,
+    MAX_FALL_SPEED = 900,
+    PLAYER_SPEED = 310,
+    PLAYER_ACCEL = 2600,
+    PLAYER_DECEL = 2800,
+    PLAYER_JUMP_FORCE = -620,
+    COYOTE_TIME = 0.12,
+    JUMP_BUFFER = 0.12,
+    PLAYER_MAX_HP = 3,
+    PLAYER_HURT_IFRAME = 1.4,
+    PLAYER_KNOCKBACK_X = 280,
+    PLAYER_KNOCKBACK_Y = -340,
+
+    SLINGSHOT_COOLDOWN = 0.28,
+    STONE_SPEED = 850,
+    STONE_DAMAGE = 1,
+    STONE_GRAVITY = 780,
+    STONE_RESTITUTION = 0.48,
+    STONE_SURFACE_FRICTION = 460,
+    STONE_MIN_DAMAGE_SPEED = 160,
+    STONE_REST_SPEED = 14,
+    STONE_MIN_BOUNCE_SPEED = 85,
+    STONE_LIFETIME = 6,
+    CHESTNUT_SPEED = 720,
+    CHESTNUT_GRAVITY = 600,
+    CHESTNUT_DAMAGE_AOE = 3,
+    CHESTNUT_RADIUS = 90,
+    CHESTNUT_INITIAL_AMMO = 3,
+
+    HEDGEHOG_SPEED = 65,
+    HEDGEHOG_HP = 1,
+    HEDGEHOG_DAMAGE = 1,
+
+    CROW_HP = 1,
+    CROW_DAMAGE = 1,
+    CROW_DETECT_RANGE = 350,
+    CROW_DIVE_SPEED = 400,
+    CROW_RETURN_SPEED = 180,
+
+    BEETLE_HP = 6,
+    BEETLE_SPEED = 45,
+    BEETLE_DAMAGE = 1,
+
+    BOSS_MAX_HP = 20,
+    BOSS_DAMAGE = 1,
+    BOSS_CHARGE_SPEED = 480,
+    BOSS_HURT_COOLDOWN = 0.5,
+
+    REQUIRED_ACORNS = 15,
+
+    masterVolume = 0.8,
+    sfxVolume = 0.8,
+    musicVolume = 0.6,
+    screenShakeEnabled = true,
+    fullscreen = false,
+    surfaceSmoothing = true,
+    language = "pl",
+}
+
+return config
